@@ -1,1 +1,11 @@
-size();
+//size(300, 400);
+fullScreen();
+color black=#030303, white=#FFFFFF, yellow=#DED716, purple=#763ACB, yellowNight=#C1BA25, purpleNight=#4F258B;
+float x=displayWidth*1/4, y=displayHeight*1/4, widthRect=displayWidth*1/2;
+float heightRect=displayHeight*1/2;
+int thin=displayWidth*1/50, thick=2*thin;
+background(black);
+stroke(yellowNight);
+strokeWeight(thick);
+fill(purpleNight);
+rect(x, y, widthRect, heightRect);
